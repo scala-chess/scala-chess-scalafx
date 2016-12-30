@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="scala-chess-scalafx$sources_2.12"
+		revision="1.0"
+		conf="test-internal"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20161228104817"/>
+	<dependencies>
+		<module organisation="org.scalafx" name="scalafx_2.12">
+			<revision name="8.0.102-R11" status="release" pubdate="20161103000138" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scalafx.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="1">
+				<license name="BSD" url="https://github.com/scalafx/scalafx/blob/master/LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="2909" time="0" location="/Users/markusheilig/.ivy2/cache/org.scalafx/scalafx_2.12/ivy-8.0.102-R11.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scalafx/scalafx_2.12/8.0.102-R11/scalafx_2.12-8.0.102-R11.pom"/>
+				<caller organisation="default" name="scala-chess-scalafx$sources_2.12" conf="test, compile, provided, test-internal, runtime, optional" rev="8.0.102-R11" rev-constraint-default="8.0.102-R11" rev-constraint-dynamic="8.0.102-R11" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="scalafx_2.12" type="jar" ext="jar" status="no" details="" size="2736158" time="0" location="/Users/markusheilig/.ivy2/cache/org.scalafx/scalafx_2.12/jars/scalafx_2.12-8.0.102-R11.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scalafx/scalafx_2.12/8.0.102-R11/scalafx_2.12-8.0.102-R11.jar"/>
+					</artifact>
+					<artifact name="scalafx_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="961620" time="791" location="/Users/markusheilig/.ivy2/cache/org.scalafx/scalafx_2.12/srcs/scalafx_2.12-8.0.102-R11-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scalafx/scalafx_2.12/8.0.102-R11/scalafx_2.12-8.0.102-R11-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-reflect">
+			<revision name="2.12.0" status="release" pubdate="20161029010451" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.0/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="2">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2825" time="0" location="/Users/markusheilig/.ivy2/cache/org.scala-lang/scala-reflect/ivy-2.12.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.12.0/scala-reflect-2.12.0.pom"/>
+				<caller organisation="default" name="scala-chess-scalafx$sources_2.12" conf="test, compile, provided, test-internal, runtime, optional" rev="2.12.0" rev-constraint-default="2.12.0" rev-constraint-dynamic="2.12.0" callerrev="1.0" extra-info.apiURL="http://www.scala-lang.org/api/2.12.0/"/>
+				<artifacts>
+					<artifact name="scala-reflect" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="571163" time="0" location="/Users/markusheilig/.ivy2/cache/org.scala-lang/scala-reflect/srcs/scala-reflect-2.12.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.12.0/scala-reflect-2.12.0-sources.jar"/>
+					</artifact>
+					<artifact name="scala-reflect" type="jar" ext="jar" status="no" details="" size="3574999" time="0" location="/Users/markusheilig/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.12.0.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.12.0/scala-reflect-2.12.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.12.1" status="release" pubdate="20161205120923" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.1/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="0">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2653" time="0" location="/Users/markusheilig/.ivy2/cache/org.scala-lang/scala-library/ivy-2.12.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scala-lang/scala-library/2.12.1/scala-library-2.12.1.pom"/>
+				<caller organisation="default" name="scala-chess-scalafx$sources_2.12" conf="test, compile, provided, test-internal, runtime, optional" rev="2.12.1" rev-constraint-default="2.12.1" rev-constraint-dynamic="2.12.1" callerrev="1.0" extra-info.apiURL="http://www.scala-lang.org/api/2.12.1/"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="5272325" time="0" location="/Users/markusheilig/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.1.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/scala-library/2.12.1/scala-library-2.12.1.jar"/>
+					</artifact>
+					<artifact name="scala-library" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="988614" time="0" location="/Users/markusheilig/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.1-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/scala-library/2.12.1/scala-library-2.12.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
