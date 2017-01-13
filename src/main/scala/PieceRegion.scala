@@ -1,9 +1,9 @@
 import chess.api.Piece
 
 import scalafx.beans.property.{ObjectProperty, StringProperty}
-import scalafx.scene.layout.Region
+import scalafx.scene.layout.Pane
 
-case class PieceRegion() extends Region {
+case class PieceRegion() extends Pane {
 
   val maybePiece = ObjectProperty[Option[Piece]](None)
 

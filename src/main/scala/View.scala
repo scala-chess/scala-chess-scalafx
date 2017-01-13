@@ -31,10 +31,10 @@ class View(val model: Model) {
       val y = position._2
       val square = SquareRegion(position)
       val actionOverlay = ActionOverlayRegion(model, position)
-      val numberOfActions = NumberOfActionsRegion(model, position)
+      val actions = MoveAndReplaceChoice(model, position)
       val chessPiece = PieceRegion()
       chessPiece.maybePiece <== model.posPieces(x)(y)
-      Tile(position, square, actionOverlay, numberOfActions, chessPiece)
+      Tile(position, square, actionOverlay, chessPiece, actions)
     }
   }
 
